@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+
 -- create
 CREATE TABLE EMPLOYEE (
 id INTEGER PRIMARY KEY,
@@ -19,5 +13,6 @@ INSERT INTO EMPLOYEE VALUES (0002, 'Петр', '22', 'Иваново');
 INSERT INTO EMPLOYEE VALUES (0003, 'Анна', '35', 'Питер');
 INSERT INTO EMPLOYEE VALUES (0004, 'Юлия', '18', 'Москва');
 INSERT INTO EMPLOYEE VALUES (0005, 'Николай', '36', 'Москва');
-</body>
-</html>
+
+-- fetch 
+SELECT * FROM EMPLOYEE WHERE name = 'Анна';
